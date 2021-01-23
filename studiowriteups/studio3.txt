@@ -1,0 +1,36 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "a.bear")
+	
+1.
+2.
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1: Strings, arrays, and lists.
+
+Question A2:
+	1.negative
+	2. positive
+	3.negative
+	4.0
+
+Question A3:	One font is thinner than the other if it is smaller than the other.
+	
+Question B1:
+
+Question B2:
+
+Question B3:
+
+Question C1:
+
+Question C2:
+
+Question C3:

@@ -1,0 +1,80 @@
+-------------------
+CSE247 Robot tester starts testing avl on 2019-12-02 15:44:12 -0600
+
+========
+Testing in ./GradingRepos/repos/labs-puppalavishal: avl as of 2019-11-23 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at c9ec862 robograde
+No local changes to save
+
+Updating c9ec862..832282e
+Fast-forward
+ RoboGrade/hash-test.TestStringTableFast.txt |  36 ++++-----
+ labs/avl/AVLTree.java                       | 120 +++++++++++++++++++++++++---
+ 2 files changed, 124 insertions(+), 32 deletions(-)
+Going back in time to: 2019-11-23 00:05
+At hash 832282e9f60a6c4feacebcc39da334661a7a66f0
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource test/TestBalancedTree package avl repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/avl/test
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling avl/tree/AVLTree
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling avl/nodes/AVLTreeNode
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling avl/test/TestBalancedTree
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+Running test test.TestBalancedTree
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running avl.test.TestBalancedTree
+    [junit] Testsuite: avl.test.TestBalancedTree
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.857 sec
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.857 sec
+    [junit] 
+    [junit] Testcase: testHeightUpdateDelete took 0.009 sec
+    [junit] Testcase: testHeightUpdateInsert took 0 sec
+    [junit] Testcase: testInsertLargeRandom took 3.194 sec
+    [junit] Testcase: testInsertSmallDescending took 0.009 sec
+    [junit] Testcase: testRebalanceSmall took 0.003 sec
+    [junit] Testcase: testEmptyTree took 0 sec
+    [junit] Testcase: testInsertSmallRandom took 0.004 sec
+    [junit] Testcase: testInsertLargeAscending took 0.855 sec
+    [junit] Testcase: testHeightUpdateRebalance took 0.001 sec
+    [junit] Testcase: testInsertLargeDescending took 0.66 sec
+    [junit] Testcase: testInsertSmallAscending took 0.003 sec
+    [junit] Testcase: testInsertDuplicates took 0.015 sec
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing avl on 2019-12-02 15:44:31 -0600
+-------------------

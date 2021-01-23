@@ -1,0 +1,76 @@
+-------------------
+CSE247 Robot tester starts testing hash on 2019-11-11 01:49:39 -0600
+
+========
+Testing in ./GradingRepos/repos/labs-puppalavishal: hash as of 2019-11-02 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 066fdae robograde
+No local changes to save
+
+Updating 066fdae..d874102
+Fast-forward
+ RoboGrade/heaps-test.TestInsert.txt | 128 ++++++++++++++++++------------------
+ labs/hash/StringTable.java          |  71 ++++++++++++++++++--
+ 2 files changed, 130 insertions(+), 69 deletions(-)
+Going back in time to: 2019-11-02 00:05
+At hash d874102d654851e0c6a4eebea16634179b4aff44
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource test/TestStringTableBasic package hash repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/hash/test
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource SeqReader package hash repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/hash
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling hash/StringTable
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling hash/test/TestStringTableBasic
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Running test test.TestStringTableBasic
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running hash.test.TestStringTableBasic
+    [junit] Testsuite: hash.test.TestStringTableBasic
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 sec
+    [junit] 
+    [junit] Testcase: testFind took 0.095 sec
+    [junit] Testcase: testInit took 0.001 sec
+    [junit] Testcase: testDelete took 0.013 sec
+    [junit] Testcase: testZeroHash took 0.008 sec
+    [junit] Testcase: testInsert took 0.003 sec
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing hash on 2019-11-11 01:49:53 -0600
+-------------------

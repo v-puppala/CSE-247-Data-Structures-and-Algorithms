@@ -1,0 +1,64 @@
+-------------------
+CSE247 Robot tester starts testing spath on 2019-12-17 00:08:39 -0600
+
+========
+Testing in ./GradingRepos/repos/labs-puppalavishal: spath as of 2019-12-24 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 27b9b0d robograde
+No local changes to save
+
+Updating 27b9b0d..6461fbf
+Fast-forward
+ RoboGrade/spath-testing.TestShortestPathSilent.txt | 135 +++++++++++++++++++++
+ labs/heaps/MinHeap.java                            |  62 +++++++---
+ 2 files changed, 182 insertions(+), 15 deletions(-)
+ create mode 100644 RoboGrade/spath-testing.TestShortestPathSilent.txt
+Going back in time to: 2019-12-24 00:05
+At hash 6461fbf8cb2940a4d150c7ae7b0ef4f1dbf5dfe8
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource testing/TestShortestPathSilent package spath repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/spath/testing
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling spath/ShortestPaths
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling spath/testing/TestShortestPathSilent
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test testing.TestShortestPathSilent
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running spath.testing.TestShortestPathSilent
+    [junit] Testsuite: spath.testing.TestShortestPathSilent
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.53 sec
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.53 sec
+    [junit] 
+    [junit] Testcase: test took 7.514 sec
+
+BUILD SUCCESSFUL
+Total time: 8 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing spath on 2019-12-17 00:08:53 -0600
+-------------------

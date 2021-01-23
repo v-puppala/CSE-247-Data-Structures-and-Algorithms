@@ -1,0 +1,136 @@
+-------------------
+CSE247 Robot tester starts testing spath on 2019-12-08 07:54:03 -0600
+
+========
+Testing in ./GradingRepos/repos/labs-puppalavishal: spath as of 2019-12-07 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 832282e lab 11
+No local changes to save
+
+Updating 832282e..75d8b1c
+Fast-forward
+ RoboGrade/avl-test.TestBalancedTree.txt | 80 +++++++++++++++++++++++++++++++++
+ labs/spath/ShortestPaths.java           | 32 +++++++++++--
+ 2 files changed, 109 insertions(+), 3 deletions(-)
+ create mode 100644 RoboGrade/avl-test.TestBalancedTree.txt
+Going back in time to: 2019-12-07 00:05
+At hash 75d8b1cdce0ea601240ac7eb8e56a1a4239c965a
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource testing/TestShortestPathDistSilent package spath repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/spath/testing
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling spath/ShortestPaths
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling spath/testing/TestShortestPathDistSilent
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Running test testing.TestShortestPathDistSilent
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running spath.testing.TestShortestPathDistSilent
+    [junit] Testsuite: spath.testing.TestShortestPathDistSilent
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+    [junit] 
+    [junit] Testcase: test took 0.018 sec
+    [junit] 	FAILED
+    [junit] Length of the shortest path was incorrect. expected:<29> but was:<-2147483648>
+    [junit] junit.framework.AssertionFailedError: Length of the shortest path was incorrect. expected:<29> but was:<-2147483648>
+    [junit] 	at spath.testing.TestShortestPathDistSilent.genGraphAndTest(TestShortestPathDistSilent.java:42)
+    [junit] 	at spath.testing.TestShortestPathDistSilent.test(TestShortestPathDistSilent.java:23)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 
+
+BUILD FAILED
+/home/coles/git/cse247/cse247-support-f19/build.xml:34: Test spath.testing.TestShortestPathDistSilent failed
+
+Total time: 1 second
+========
+Testing in ./GradingRepos/repos/labs-puppalavishal: spath as of 2019-12-08 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 75d8b1c lab 13
+No local changes to save
+
+Already up-to-date.
+Going back in time to: 2019-12-08 00:05
+At hash 75d8b1cdce0ea601240ac7eb8e56a1a4239c965a
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource testing/TestShortestPathDistSilent package spath repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/spath/testing
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling spath/ShortestPaths
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling spath/testing/TestShortestPathDistSilent
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Running test testing.TestShortestPathDistSilent
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running spath.testing.TestShortestPathDistSilent
+    [junit] Testsuite: spath.testing.TestShortestPathDistSilent
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+    [junit] 
+    [junit] Testcase: test took 0.016 sec
+    [junit] 	FAILED
+    [junit] Length of the shortest path was incorrect. expected:<28> but was:<-2147483648>
+    [junit] junit.framework.AssertionFailedError: Length of the shortest path was incorrect. expected:<28> but was:<-2147483648>
+    [junit] 	at spath.testing.TestShortestPathDistSilent.genGraphAndTest(TestShortestPathDistSilent.java:42)
+    [junit] 	at spath.testing.TestShortestPathDistSilent.test(TestShortestPathDistSilent.java:27)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 
+
+BUILD FAILED
+/home/coles/git/cse247/cse247-support-f19/build.xml:34: Test spath.testing.TestShortestPathDistSilent failed
+
+Total time: 1 second
+================
+Lab is not counted -- failed unit tests
+================
+
+CSE247 Robot tester ends testing spath on 2019-12-08 07:54:27 -0600
+-------------------

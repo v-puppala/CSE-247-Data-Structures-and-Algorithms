@@ -1,0 +1,424 @@
+-------------------
+CSE247 Robot tester starts testing heaps on 2019-10-29 09:33:29 -0500
+
+========
+Testing in ./GradingRepos/repos/labs-puppalavishal: heaps as of 2019-10-30 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at e897243 robograde
+No local changes to save
+
+Updating e897243..066fdae
+Fast-forward
+ RoboGrade/heaps-test.TestInsert.txt | 99 +++++++++++++++++++------------------
+ 1 file changed, 51 insertions(+), 48 deletions(-)
+Going back in time to: 2019-10-30 00:05
+At hash 066fdae884dc00bd858d660905c2693199fdd74e
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource test/TestInsert package heaps repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/heaps/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling heaps/MinHeap
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling heaps/test/TestInsert
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test test.TestInsert
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running heaps.test.TestInsert
+    [junit] Testsuite: heaps.test.TestInsert
+    [junit] Testing with heap size: 41
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree before the problem occurred:
+    [junit] 131
+    [junit] 
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree that triggered this problem:
+    [junit]    1   
+    [junit] 131
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.122 sec
+    [junit] Output:
+    [junit] Testing with heap size: 41
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree before the problem occurred:
+    [junit] 131
+    [junit] 
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree that triggered this problem:
+    [junit]    1   
+    [junit] 131
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Error: 
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 	at heaps.validate.MinHeapValidator.checkLocsCorrect(MinHeapValidator.java:135)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:32)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+    [junit] 
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.122 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Testing with heap size: 41
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree before the problem occurred:
+    [junit] 131
+    [junit] 
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree that triggered this problem:
+    [junit]    1   
+    [junit] 131
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 	at heaps.validate.MinHeapValidator.checkLocsCorrect(MinHeapValidator.java:135)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:32)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testEmptyHeap took 0.021 sec
+    [junit] Testcase: testInsert took 0.052 sec
+    [junit] Testcase: testLocUpdatedDecrease took 0.028 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree before the problem occurred:
+    [junit] 131
+    [junit] 
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree that triggered this problem:
+    [junit]    1   
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 131
+    [junit] 	at heaps.validate.MinHeapValidator.checkLocsCorrect(MinHeapValidator.java:135)
+    [junit] 
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:32)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:43)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+    [junit] 
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+
+BUILD FAILED
+/home/coles/git/cse247/cse247-support-f19/build.xml:34: Test heaps.test.TestInsert failed
+
+Total time: 0 seconds
+========
+Testing in ./GradingRepos/repos/labs-puppalavishal: heaps as of 2019-10-30 00:05
+========
+Now in: /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 066fdae robograde
+No local changes to save
+
+Already up-to-date.
+Going back in time to: 2019-10-30 00:05
+At hash 066fdae884dc00bd858d660905c2693199fdd74e
+
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247/cse247-f19-graders/ key puppalavishal testfilesource test/TestInsert package heaps repo ./GradingRepos/repos/labs-puppalavishal
+     [copy] Copying 1 file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/labs/heaps/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling heaps/MinHeap
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+compile:
+     [echo] Compiling heaps/test/TestInsert
+    [javac] Compiling 1 source file to /home/coles/git/cse247/cse247-support-f19/GradingRepos/repos/labs-puppalavishal/bin
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Running test test.TestInsert
+Buildfile: /home/coles/git/cse247/cse247-support-f19/build.xml
+
+test:
+    [junit] Running heaps.test.TestInsert
+    [junit] Testsuite: heaps.test.TestInsert
+    [junit] Testing with heap size: 100
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 	at heaps.validate.MinHeapValidator.checkLocsCorrect(MinHeapValidator.java:135)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:32)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] Tree before the problem occurred:
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 131
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] Tree that triggered this problem:
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit]    1   
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 131
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+    [junit] 
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.347 sec
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+    [junit] Output:
+    [junit] Testing with heap size: 100
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree before the problem occurred:
+    [junit] 131
+    [junit] 
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree that triggered this problem:
+    [junit]    1   
+    [junit] 131
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Error: 
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 	at heaps.validate.MinHeapValidator.checkLocsCorrect(MinHeapValidator.java:135)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:32)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+    [junit] 
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.347 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Testing with heap size: 100
+    [junit] ===== Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] Failure message: Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree before the problem occurred:
+    [junit] 131
+    [junit] 
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree that triggered this problem:
+    [junit]    1   
+    [junit] 131
+    [junit] 
+    [junit] ===== End Failure report for testLocUpdatedDecrease(heaps.test.TestInsert) ========
+    [junit] 
+    [junit] 
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] 	at heaps.validate.MinHeapValidator.checkLocsCorrect(MinHeapValidator.java:135)
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:32)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    [junit] 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+    [junit] 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testEmptyHeap took 0.038 sec
+    [junit] Testcase: testInsert took 0.206 sec
+    [junit] Testcase: testLocUpdatedDecrease took 0.061 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] Heap Validation Error (detail shown below):
+    [junit] java.lang.Error: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree before the problem occurred:
+    [junit] 131
+    [junit] 
+    [junit] What went wrong: In your array at index 1 the Decreaser object has the wrong location. It should be 1 but was 2
+    [junit] Tree that triggered this problem:
+    [junit]    1   
+    [junit] 131
+    [junit] 
+    [junit] 	at heaps.validate.MinHeapValidator.check(MinHeapValidator.java:43)
+    [junit] 	at heaps.test.TestInsert.testLocUpdatedDecrease(TestInsert.java:59)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 
+
+BUILD FAILED
+/home/coles/git/cse247/cse247-support-f19/build.xml:34: Test heaps.test.TestInsert failed
+
+Total time: 1 second
+================
+Lab is not counted -- failed unit tests
+================
+
+CSE247 Robot tester ends testing heaps on 2019-10-29 09:33:41 -0500
+-------------------

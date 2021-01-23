@@ -1,0 +1,51 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "a.bear")
+	
+1.
+2.
+3.
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question PS1:The Linear tick is the straight line y=x, while quadratic is the curve y=x^2.  The quadratic run time rises at a much faster rate than the linear runtime, as exemplified by how the linear run time plot is mostly horizontal at y=0. The reason why the two scripts differ in run time is because one features a single for-loop while the other features a double-four loop with the same signatures for both loops. Thus, each numbered iteration(i=0 toi<n) performed in the linear run corresponds to i^2 iterations performed by the quadratic run. 
+
+Question PS2: Because, the rate of increase in linear time is negligible compared to that of quadratic time.
+	
+Question PS3: Adding add.tick() outside the inside for-loop only cosmetically adjusts the quadratic  scatterplots by shifting them by a few units rightward. Adding tickers within the inner for-loop compresses the curve represented by the tick scatter plot by a factor of 1/2.
+	
+Question PS4: The tick curve can be characterized as n^squared. The time curve can be characterized as some sort of logarithmic function in terms of n.
+		
+Question PS5: The quadratic tick curve becomes linear with equation y=x and the quadratic run curve remains logarithmic.
+	
+Question A1: A straight horizontal line. The runtime/tick count is independent of n which is why the runtime and tick counts remain constant, even as n varies.
+	
+Question A2: The tick count graph is perfectly horizontal; the number of ticks is constant regardless of n. The runtime graph however is linear and resembles y=x. The data suggests the time taken to allocate an array of size n is proportional to n itself.
+	
+Question A3: The tick shape does not agree with the time shape because each the individual operations are not each equal to one another, since the operations vary in scale(size).
+	
+Question A4:The plots are indeed more similar. They both are linear(y=x). This tells you that the time it takes to allocate n integers is is directly proportional to n itslef, probably because the the number of operations required to complete the allocation task is equal to n, or the size of the array to be allocated, itself.
+
+Question A5: Decimal: y=log(x) with base=10.
+
+Question A6:Binary: y=log(x) with base=2. the ratio is equal to log(x) base 2 divided by log(x) base 10.
+
+Question A7:
+	
+Question C1:
+
+Question C2:
+
+Question C3:
+	
+Question D1:
+	
+Question D2:
+
+	
+	
